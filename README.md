@@ -12,7 +12,4 @@ This mod adds a row of tabs above your inventory and container screens. Easily s
 - Access your full inventory while riding horses or other entities, without dismounting.
   
   ![full inventory access while riding an entity](https://cdn.modrinth.com/data/9ERgRKUo/images/d9d12cb5fdfedbf5dfc593593b558b0769e0d4bc.png)
-- Container tabs use their block names, or custom names if they've been renamed.
-
-  ![renamed containers](https://cdn.modrinth.com/data/9ERgRKUo/images/3cb0b40c14e80302f7d66ad9b293df2742656495.png)
 - Carried item stacks carry over to the next screen as long as you have an empty inventory slot.
