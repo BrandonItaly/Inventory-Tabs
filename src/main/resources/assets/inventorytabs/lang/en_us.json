@@ -1,0 +1,8 @@
+{
+  "key.category.inventorytabs.controls": "Inventory Tabs",
+  "key.inventory_tabs.next_tab": "Next Tab",
+  "key.inventory_tabs.previous_tab": "Previous Tab",
+  "inventorytabs.previous_page": "Previous page",
+  "inventorytabs.next_page": "Next page",
+  "inventorytabs.transfer_no_space": "Free an inventory slot to carry this item between tabs"
+}

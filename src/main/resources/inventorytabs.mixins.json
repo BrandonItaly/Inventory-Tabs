@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.brandonitaly.inventorytabs.mixin",
+  "compatibilityLevel": "JAVA_${java_release}",
+  "client": [
+    "AbstractContainerScreenAccessor",
+    "AbstractContainerScreenMixin",
+    "MouseHandlerMixin",
+    "ScreenTransitionMixin",
+    "ClientPacketListenerMixin",
+    "TransferGuardMixin",
+    "RidingInventoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
