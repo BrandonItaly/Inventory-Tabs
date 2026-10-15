@@ -1,0 +1,1 @@
+- Fixed inventory tabs rendering over certain modded GUI elements.

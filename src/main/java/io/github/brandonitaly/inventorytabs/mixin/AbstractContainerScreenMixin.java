@@ -52,11 +52,11 @@ public abstract class AbstractContainerScreenMixin extends Screen {
     }
 
     //? if >=26.0 {
-    @Inject(method = "extractCarriedItem", at = @At("HEAD"))
+    @Inject(method = "extractContents", at = @At("TAIL"))
     //?} else {
-    /*@Inject(method = "renderCarriedItem", at = @At("HEAD"))
+    /*@Inject(method = "renderContents", at = @At("TAIL"))
     *///?}
-    private void renderTabsBeforeCarriedItem(GuiGraphicsExtractor context, int mouseX, int mouseY, CallbackInfo ci) {
+    private void renderTabsAfterContents(GuiGraphicsExtractor context, int mouseX, int mouseY, float partialTick, CallbackInfo ci) {
         TabManager.renderTabs(context, (AbstractContainerScreen<?>)(Object)this, mouseX, mouseY);
     }
 
